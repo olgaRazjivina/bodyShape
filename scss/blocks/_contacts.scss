@@ -1,0 +1,32 @@
+.contacts {
+  display: flex;
+  column-gap: 50px;
+
+  @media (max-device-width: $mobile-width) {
+    flex-direction: column;
+    row-gap: 50px;
+  }
+}
+
+.contacts__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts__tel {
+  color: inherit;
+}
+
+.contacts__tel:hover,
+.contacts__tel:focus {
+  color: $accent-color;
+}
+
+.contacts__email {
+  color: inherit;
+}
+
+.contacts__email:hover,
+.contacts__email:focus {
+  color: $accent-color;
+}

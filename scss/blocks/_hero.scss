@@ -1,0 +1,12 @@
+.hero {
+  padding-top: 125px;
+  text-align: right;
+
+  @media (max-device-width: $tablet-width) {
+    text-align: center;
+  }
+
+  @media (max-device-width: $mobile-width) {
+    display: none;
+  }
+}

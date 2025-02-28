@@ -1,0 +1,19 @@
+.header {
+  padding-top: 30px;
+  min-height: 750px;
+  background-color: $dark-color;
+  color: $light-support-color;
+  background-image: url("./../img/header/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    background-image: url("./../img/header/hero-bg@2x.jpg");
+  }
+
+  @media (max-device-width: $tablet-width) {
+    min-height: auto;
+    padding-bottom: 30px;
+  }
+}

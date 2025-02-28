@@ -1,0 +1,21 @@
+.programs-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  column-gap: 32px;
+  row-gap: 105px;
+
+  @media (max-device-width: 1129px) {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 85px;
+  }
+
+  @media (max-device-width: 849px) {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 45px;
+  }
+
+  @media (max-device-width: $mobile-width) {
+    grid-template-columns: 1fr;
+  }
+}

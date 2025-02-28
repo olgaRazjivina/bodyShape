@@ -1,0 +1,24 @@
+// Шрифты
+
+$font-base: "Roboto", sans-serif;
+$font-accent: "BebasNeue", sans-serif;
+
+//Цветовая палитра
+
+$dark-color: #1f2a32;
+$light-color: #fafaf5;
+$light-support-color: #ffffff;
+$accent-color: #ffd479;
+
+// Палитра для кнопок
+
+$button-base: $accent-color;
+$button-base-text: #000000;
+$button-accent-text: $light-support-color;
+$button-base-hover: darken($accent-color, 10%);
+$button-base-active: darken($accent-color, 30%);
+
+//viewports
+
+$tablet-width: 768px;
+$mobile-width: 600px;

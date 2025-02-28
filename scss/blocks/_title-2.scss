@@ -1,0 +1,10 @@
+.title-2 {
+  font-family: $font-accent;
+  font-weight: 700;
+  font-size: clamp(2.625rem, 1.989rem + 3.18vw, 4.375rem);
+  color: $accent-color;
+
+  &--light {
+    color: $light-support-color;
+  }
+}

@@ -1,0 +1,27 @@
+.button {
+  display: inline-block;
+  padding: 18px 47px 15px 47px;
+  font-family: $font-accent;
+  font-size: clamp(0.875rem, 0.761rem + 0.57vw, 1.188rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.26em;
+  background-color: $button-base;
+  color: $button-base-text;
+  border-radius: 7px;
+  transition: all 0.2s ease-in;
+
+  @media (max-device-width: $tablet-width) {
+    letter-spacing: 0.16em;
+  }
+}
+
+.button:hover,
+.button:focus {
+  background-color: $button-base-hover;
+}
+
+.button:active {
+  background-color: $button-base-active;
+  color: $button-accent-text;
+}

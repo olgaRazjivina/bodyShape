@@ -1,0 +1,9 @@
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.feedback-form__button {
+  align-self: flex-start;
+}

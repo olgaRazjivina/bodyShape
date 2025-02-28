@@ -1,0 +1,28 @@
+.promo {
+  display: flex;
+  align-items: center;
+  background-image: url("./../img/promo/promo-bg@2x.jpg");
+  min-height: 750px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    background-image: url("./../img/promo/promo-bg@2x.jpg");
+  }
+
+  @media (max-device-width: $mobile-width) {
+    min-height: 600px;
+  }
+}
+
+.promo__title {
+  margin-bottom: 10px;
+}
+
+.promo__desc {
+  font-size: clamp(0.875rem, 0.693rem + 0.91vw, 1.375rem);
+  line-height: 1.5;
+  margin-bottom: 30px;
+}

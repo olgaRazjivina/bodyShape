@@ -1,0 +1,11 @@
+.logo {
+  flex-shrink: 0;
+
+  @media (max-device-width: $tablet-width) {
+    display: none;
+  }
+
+  @media (max-device-width: $mobile-width) {
+    display: block;
+  }
+}

@@ -1,0 +1,15 @@
+.title-3 {
+  font-family: $font-accent;
+  font-weight: 700;
+  font-size: clamp(1.438rem, 0.983rem + 2.27vw, 2.688rem);
+  color: $accent-color;
+  letter-spacing: 0.07em;
+
+  &--light {
+    color: $light-support-color;
+  }
+
+  @media (max-device-width: $tablet-width) {
+    font-size: 28px;
+  }
+}

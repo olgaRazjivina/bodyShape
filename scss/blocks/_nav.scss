@@ -1,0 +1,14 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (max-device-width: $tablet-width) {
+    justify-content: center;
+  }
+
+  @media (max-device-width: $mobile-width) {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+}

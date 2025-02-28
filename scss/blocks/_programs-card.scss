@@ -1,0 +1,15 @@
+.programs-card {
+  display: flex;
+  flex-direction: column-reverse;
+  row-gap: 25px;
+  max-width: 268px;
+
+  @media (max-device-width: $tablet-width) {
+    row-gap: 14px;
+  }
+}
+
+.programs-card__img {
+  border-radius: 20px;
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2);
+}

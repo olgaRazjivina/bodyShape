@@ -1,0 +1,10 @@
+.label {
+  font-family: $font-base;
+  font-size: 16px;
+  font-weight: 700;
+  color: $light-support-color;
+
+  @media (max-device-width: $mobile-width) {
+    font-size: 14px;
+  }
+}
